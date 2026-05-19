@@ -1,0 +1,10 @@
+torch
+transformers
+diffusers
+accelerate
+pillow
+numpy
+opencv-python
+safetensors
+sentencepiece
+gradio
