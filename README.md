@@ -4,6 +4,7 @@ This project implements a multimodal foundation-model pipeline for visual unders
 
 The project includes:
 
+- Image analysis and replacement recommendation
 - Open-vocabulary object detection
 - Point-based object segmentation
 - Visual question answering
@@ -13,7 +14,10 @@ The project includes:
 
 This project uses the following foundation models:
 
-- **Grounding DINO** for open-vocabulary detection  
+- **Florence-2** for open-vocabulary detection  
+  `microsoft/Florence-2-base`
+  
+- **Grounding DINO** for image analysis and replacement recommendation  
   `IDEA-Research/grounding-dino-base`
 
 - **SAM2** for object segmentation  
